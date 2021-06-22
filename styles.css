@@ -19,3 +19,13 @@ body {
     background-color: #fffbf7;
 }
 
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video img{
+    width: 150px;
+    margin-top: 15px;
+}
