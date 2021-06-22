@@ -1,5 +1,10 @@
+* {
+    background-color: yellow;
+}
+
 h1 {
     color: rgb(111, 111, 201);
+    margin: 40px 20px 0px 20px;
 }
 
 h2 {
@@ -19,3 +24,47 @@ body {
     background-color: #fffbf7;
 }
 
+.header {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    height: 45px;
+}
+
+li {
+    display: inline;
+}
+
+.header > * {
+    display: inline-block;
+}
+
+
+.navbar {
+    width: 70%;
+    color: #025157;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  
+  .actions {
+    width: 15%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  .actions a {
+    color: #67b54b;
+  }
+
+  .actions button {
+      color: white;
+      background-color:  #67b54b;
+      padding: 12px 14px 12px 14px;
+      border-width: 0;
+      border-radius: 5px;
+  }
