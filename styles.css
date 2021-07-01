@@ -29,3 +29,35 @@ body {
     width: 150px;
     margin-top: 15px;
 }
+
+.publish {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#carouselExampleIndicators {
+    background-color: black;
+}
+
+
+@media (max-width: 575px) {
+    main{
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .navbar, .actions{
+        display: none;
+    }
+
+    .publish > form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
